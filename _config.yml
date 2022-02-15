@@ -1,0 +1,8 @@
+title: Modding Playground
+description: >-
+  Ninni and Andante, making mods
+url: https://moddingplayground.net
+
+theme: minima
+plugins:
+  - jekyll-feed
