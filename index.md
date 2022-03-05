@@ -3,7 +3,7 @@ layout: home
 title: Modding Playground
 ---
 
-[![badge:discord](https://img.shields.io/discord/843260783948333056?labelColor=2d2d2d&label=discord&style=flat-square&color=5865F2)](https://discord.moddingplayground.net)
+{% include badge/discord.html %}
 
 <strong style="font-size:2em">This page is a work in progress!</strong>
 
