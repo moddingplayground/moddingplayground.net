@@ -7,6 +7,13 @@ theme: minima
 plugins:
   - jekyll-feed
 
+projects:
+  macaws:
+  thematic:
+  twigs:
+  endangered:
+  direbats:
+
 collections:
   pages:
     output: true
