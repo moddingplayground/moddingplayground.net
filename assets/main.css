@@ -13,7 +13,7 @@ body {
 
 .anchorjs-link, :hover > .anchorjs-link {
   text-decoration: none;
-  transition: all .1s ease-out;
+  transition: all .1s ease;
   color: black;
 }
 
@@ -6026,6 +6026,28 @@ div.discord-widget {
   text-align: center;
 }
 
+header.post-header {
+  display: grid;
+  grid-template-columns: 28fr 1fr;
+}
+
+header.post-header > * {
+  display: grid;
+}
+
+a.page-home-link {
+  margin-top: 60px;
+  max-width: 100px;
+  justify-self: right;
+  text-decoration: none;
+  transition: all .1s ease;
+  color: #24292f69;
+}
+
+a.page-home-link:hover {
+  color: #24292f;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #c9d1d9;
@@ -6048,6 +6070,14 @@ div.discord-widget {
   }
 
   .anchorjs-link, :hover > .anchorjs-link {
+    color: #c9d1d9;
+  }
+
+  a.page-home-link {
+    color: #c9d1d969;
+  }
+
+  a.page-home-link:hover {
     color: #c9d1d9;
   }
 }
