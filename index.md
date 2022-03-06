@@ -7,7 +7,7 @@ title: Modding Playground
 
 <div class="projects">
   {% for project in site.projects %}
-    <a alt="icon:{{ project }}" href="/{{ project }}"><img class="x128" src="assets/img/projects/{{ project }}/icon.png"></a>
+    <a alt="icon:{{ project }}" href="/{{ project }}"><img class="x128" src="/assets/img/projects/{{ project }}/icon.png"></a>
   {% endfor %}
 </div>
 
