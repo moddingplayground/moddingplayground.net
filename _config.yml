@@ -8,11 +8,11 @@ plugins:
   - jekyll-feed
 
 projects:
-  macaws:
-  thematic:
   twigs:
+  thematic:
+  sofishticated:
   endangered:
-  direbats:
+  macaws:
 
 collections:
   pages:
