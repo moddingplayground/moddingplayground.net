@@ -5,11 +5,8 @@ title: Modding Playground
 
 ## projects
 
-<div class="projects">
-  {% for project in site.projects %}
-    <a alt="icon:{{ project }}" href="/{{ project }}"><img class="x128" src="/assets/img/projects/{{ project }}/icon.png"></a>
-  {% endfor %}
-</div>
+{% include projects.html array=site.projects-1 %}
+{% include projects.html array=site.projects-2 %}
 
 ## faq
 ### Will you make a Forge version?
@@ -23,4 +20,4 @@ Join our community [*Discord*](https://discord.moddingplayground.net)! You can a
 
 ---
 
-{{ include discord-widget.html }}
+{% include discord-widget.html %}

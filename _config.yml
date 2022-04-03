@@ -1,17 +1,17 @@
 title: Modding Playground
-description: >-
-  Ninni x Andante
 url: https://moddingplayground.net
 
 theme: minima
 plugins:
   - jekyll-feed
 
-projects:
+projects-1:
   twigs:
+projects-2:
   thematic:
-  endangered:
+  packed:
   macaws:
+  endangered:
   sofishticated:
 
 collections:

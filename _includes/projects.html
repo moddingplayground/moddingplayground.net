@@ -1,0 +1,6 @@
+{% assign projects = include.array %}
+<div class="projects" style="grid-template-columns: repeat({{ projects.size }}, 1fr);">
+  {% for project in projects %}
+    <a alt="icon:{{ project }}" href="/{{ project }}" target="_blank"><img class="x128" src="/assets/img/projects/{{ project }}/icon.png"></a>
+  {% endfor %}
+</div>
