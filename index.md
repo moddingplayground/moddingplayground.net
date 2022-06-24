@@ -5,12 +5,12 @@ title: Modding Playground
 
 ![banner.png](/assets/img/banner.png)
 
-## projects
+## Projects
 
 {% include projects.html array=site.projects-1 %}
 {% include projects.html array=site.projects-2 %}
 
-## faq
+## FAQ
 ### Will you make a Forge version?
 Forge versions will be made occasionally in-house by anyone who is willing to. Otherwise, if the mod has been out for a while and **you** are willing to make a port, go ahead! Make sure you contact us on our [*Discord*](https://discord.moddingplayground.net) to make it formal.
 
