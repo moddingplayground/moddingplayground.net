@@ -6,12 +6,14 @@ plugins:
   - jekyll-feed
 
 projects-1:
-  twigs:
-projects-2:
+  onastick:
   thematic:
+  twigs:
   packed:
-  macaws:
+  frame:
+projects-2:
   endangered:
+  macaws:
   sofishticated:
 
 collections:
