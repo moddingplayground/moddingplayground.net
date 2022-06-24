@@ -3,6 +3,8 @@ layout: home
 title: Modding Playground
 ---
 
+![banner.png](/assets/img/banner.png)
+
 ## projects
 
 {% include projects.html array=site.projects-1 %}
