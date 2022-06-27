@@ -10,8 +10,13 @@ project_id: frame
   {% include badge/discord.html %}
 </p>
 
-Frame is Modding Playground's library mod. Documentation can be found in the [source code](https://github.com/moddingplayground/frame-fabric).
+<center>
+  <p>Frame is Modding Playground's Minecraft API.</p>
 
----
+  {% include target_blank_button.html url="https://github.com/moddingplayground/frame-fabric" text="Source" %}
+  {% include target_blank_button.html url="https://github.com/moddingplayground/frame-fabric/wiki" text="Wiki" %}
+  {% include target_blank_button.html url="https://github.com/moddingplayground/maven" text="Maven" %}
 
-<center><img src="/assets/img/projects/frame/icon.png"></center>
+  <hr>
+  <img src="/assets/img/projects/frame/icon.png">
+</center>

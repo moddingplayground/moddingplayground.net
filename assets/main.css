@@ -6048,6 +6048,12 @@ a.page-home-link:hover {
   color: #24292f;
 }
 
+button {
+  border: none;
+  color: #24292f;
+  background-color: #c9d1d9;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #c9d1d9;
@@ -6079,5 +6085,10 @@ a.page-home-link:hover {
 
   a.page-home-link:hover {
     color: #c9d1d9;
+  }
+
+  button {
+    color: #c9d1d9;
+    background-color: #21262d;
   }
 }
